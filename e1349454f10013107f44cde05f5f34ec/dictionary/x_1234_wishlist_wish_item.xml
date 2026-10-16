@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7b971018f10013107f44cde05f5f34df" label="Wish Item" max_length="40" name="x_1234_wishlist_wish_item" type="collection">
+        <element label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element label="Item" mandatory="true" max_length="125" name="item" type="string"/>
+        <index name="index">
+            <element name="requestor"/>
+        </index>
+    </element>
+</database>

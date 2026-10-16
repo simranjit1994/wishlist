@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7b971018f10013107f44cde05f5f34df" label="Wish Item" max_length="40" name="x_1234_wishlist_wish_item" type="collection">
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Display Name" max_length="300" name="display_name" read_only="true" type="string"/>
         <element label="URL" max_length="1024" name="url" type="url"/>
         <element label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
         <element display="true" label="Item" mandatory="true" max_length="125" name="item" type="string"/>
